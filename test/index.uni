@@ -1,0 +1,10 @@
+put numTries 0
+
+task a() 
+    numTries++
+    out(numTries)
+end
+
+while true
+    a()
+end
